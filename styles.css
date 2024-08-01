@@ -1,6 +1,7 @@
 /* Estilos generales para el cuerpo de la página */
 body {
-    font-family: 'Montserrat', Arial, sans-serif; /* Añade Montserrat como primera opción */
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* Añade Montserrat como primera opción */
     margin: 0px;
     padding: 0px;
 }
@@ -9,9 +10,11 @@ body {
 .header {
     font-size: small;
     justify-items: center;
-    background-color: #343a40; /* Color de fondo oscuro de Bootstrap */
+    background-color: #343a40;
+    /* Color de fondo oscuro de Bootstrap */
     padding: 10px 20px;
-    border-bottom: 1px solid #dee2e6; /* Borde inferior claro de Bootstrap */
+    border-bottom: 1px solid #dee2e6;
+    /* Borde inferior claro de Bootstrap */
 }
 
 .logo {
@@ -25,8 +28,10 @@ body {
     padding-top: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten si es necesario */
-    justify-content: center; /* Centra los elementos en pantallas grandes */
+    flex-wrap: wrap;
+    /* Permite que los elementos se ajusten si es necesario */
+    justify-content: center;
+    /* Centra los elementos en pantallas grandes */
 }
 
 .nav ul li {
@@ -35,16 +40,19 @@ body {
 
 .nav ul li a {
     text-decoration: none;
-    color: #ffffff; /* Color de texto blanco */
+    color: #ffffff;
+    /* Color de texto blanco */
     font-weight: bold;
 }
 
 .nav ul li a:hover {
     text-decoration: none;
-    background-color: #777; /* Color de fondo gris claro de Bootstrap */
+    background-color: #777;
+    /* Color de fondo gris claro de Bootstrap */
     padding: 5px;
     color: #000000;
-    border-radius: 10px 4px 10px 4px; /* Bordes redondeados uniformes */
+    border-radius: 10px 4px 10px 4px;
+    /* Bordes redondeados uniformes */
     transition: 300ms;
 }
 
@@ -59,9 +67,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f9f9f9; /* Color de fondo claro de Bootstrap */
+    background-color: #f9f9f9;
+    /* Color de fondo claro de Bootstrap */
     margin: 10px 0px;
-    flex-direction: row; /* Asegura que el contenido se centre en dispositivos pequeños */
+    flex-direction: row;
+    /* Asegura que el contenido se centre en dispositivos pequeños */
 }
 
 .titulodepagina img {
@@ -75,14 +85,15 @@ body {
 .titulodepagina h1 {
     font-style: italic;
     font-weight: 700;
-    font-size: 2rem; /* Ajuste del tamaño de fuente */
+    font-size: 2rem;
+    /* Ajuste del tamaño de fuente */
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .titulodepagina p {
     font-size: small;
-    color:#343a40;
+    color: #343a40;
 }
 
 /* Estilos para el contenido principal TITULARES */
@@ -94,17 +105,20 @@ body {
 }
 
 h2 {
-    background-color: #6c757d; /* Color de fondo gris oscuro de Bootstrap */
+    background-color: #6c757d;
+    /* Color de fondo gris oscuro de Bootstrap */
     color: #ffffff;
     font-style: italic;
     font-weight: bold;
-    padding: 10px; /* Añadido padding para mejorar la apariencia */
+    padding: 10px;
+    /* Añadido padding para mejorar la apariencia */
 }
 
 /* Estilos para la sección de ítems */
 .item {
     display: flex;
-    flex-direction: column; /* Asegura que el contenido se apile verticalmente en pantallas pequeñas */
+    flex-direction: column;
+    /* Asegura que el contenido se apile verticalmente en pantallas pequeñas */
     margin-bottom: 10px;
 }
 
@@ -126,7 +140,8 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en una nueva línea si es necesario */
+    flex-wrap: wrap;
+    /* Permite que los elementos se ajusten en una nueva línea si es necesario */
 }
 
 .sponsor-container p {
@@ -140,7 +155,8 @@ h2 {
 
 .sponsor-img {
     width: 100%;
-    max-width: 400px; /* Limita el ancho máximo para pantallas grandes */
+    max-width: 400px;
+    /* Limita el ancho máximo para pantallas grandes */
     height: auto;
     border-right: 5px solid #ccc;
     border-bottom: 5px solid #ccc;
@@ -148,7 +164,7 @@ h2 {
 
 /* Estilos para los encabezados y párrafos */
 h3 {
-    font-size:large;
+    font-size: large;
     text-align: left;
     font-style: italic;
     font-weight: 600;
@@ -171,7 +187,8 @@ p {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en una nueva línea si es necesario */
+    flex-wrap: wrap;
+    /* Permite que los elementos se ajusten en una nueva línea si es necesario */
     justify-content: center;
     gap: 30px;
     font-size: small;
@@ -186,25 +203,35 @@ p {
     color: #000000;
     font-weight: bold;
     position: relative;
-    padding: 5px 10px; /* Añadido padding para mejorar el área clickeable */
-    border-radius: 3px; /* Bordes redondeados para los enlaces */
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    padding: 5px 10px;
+    /* Añadido padding para mejorar el área clickeable */
+    border-radius: 3px;
+    /* Bordes redondeados para los enlaces */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    /* Transiciones suaves */
 }
 
 /* Efecto de hover en los enlaces */
 .footer-nav ul li a:hover {
-    color: #333333; /* Color de texto más oscuro al pasar el cursor */
-    background-color: #dcdcdc; /* Fondo gris claro para el hover */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para el efecto de profundidad */
+    color: #333333;
+    /* Color de texto más oscuro al pasar el cursor */
+    background-color: #dcdcdc;
+    /* Fondo gris claro para el hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil para el efecto de profundidad */
 }
 
 /* Efecto de foco en los enlaces */
-.footer-nav ul li a:focus, 
+.footer-nav ul li a:focus,
 .footer-nav ul li a:active {
-    color: #000000; /* Color de texto al hacer clic o cuando el enlace está en foco */
-    background-color: #e0e0e0; /* Fondo gris más claro para el foco */
-    outline: none; /* Elimina el contorno predeterminado del enfoque */
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Sombra de enfoque más prominente */
+    color: #000000;
+    /* Color de texto al hacer clic o cuando el enlace está en foco */
+    background-color: #e0e0e0;
+    /* Fondo gris más claro para el foco */
+    outline: none;
+    /* Elimina el contorno predeterminado del enfoque */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+    /* Sombra de enfoque más prominente */
 }
 
 /* Media Queries para Responsividad */
@@ -215,7 +242,7 @@ p {
         font-size: small;
         padding: 10px 5px;
     }
-    
+
     .logo {
         width: 40px;
     }
