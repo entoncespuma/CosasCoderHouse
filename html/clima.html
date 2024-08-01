@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>CLIMA | inmediato</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace a tu archivo de estilos externo -->
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header d-flex align-items-center justify-content-center bg-dark text-white">
+        <img src="../imgs/inMEDIAto.png" alt="Logo" class="logo mr-3">
+        <nav class="nav">
+            <ul class="nav-list d-flex list-unstyled m-0">
+                <li class="mr-3"><a href="../index.html" class="text-white">INICIO</a></li> <!-- NO FUNCIONA EL ENLACE SI ESTAS EN LA MISMA PAGINA -->
+                <li class="mr-3"><a href="../html/umomento.html" class="text-white">ULTIMO MOMENTO</a></li>
+                <li class="mr-3"><a href="../html/espectaculos.html" class="text-white">ESPECTACULOS</a></li>
+                <li class="mr-3"><a href="" class="text-white">CLIMA</a></li>
+                <li class="mr-3"><a href="../html/servicios.html" class="text-white">SERVICIOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="titulodepagina">
+            <img class="imagendelogo" src="../imgs/inMEDIAto.png" alt="Logo Inmediato" class="imagen">
+            <div>
+                <h1>INMEDIATO</h1>
+                <p>la noticia no espera</p>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <h2>EL CLIMA EN LA CIUDADES</h2> <!-- Título de la sección de clima -->
+        <div id="cont_5bcb9fa9394d0db252b2b5cc7f989487">
+            <script type="text/javascript" async
+                src="https://www.meteored.com.ar/wid_loader/5bcb9fa9394d0db252b2b5cc7f989487"></script>
+        </div> <!-- Widget de clima para una ciudad -->
+        <div id="cont_420cac2a9c10e4cdb8afbbaba5194883">
+            <script type="text/javascript" async
+                src="https://www.meteored.com.ar/wid_loader/420cac2a9c10e4cdb8afbbaba5194883"></script>
+        </div> <!-- Widget de clima para otra ciudad -->
+        <div id="cont_7657352c6bf4a5edd0abf7bf953100e0">
+            <script type="text/javascript" async
+                src="https://www.meteored.com.ar/wid_loader/7657352c6bf4a5edd0abf7bf953100e0"></script>
+        </div> <!-- Widget de clima para otra ciudad -->
+        <div id="cont_176389fe4e67c8f347b739f698955aaf">
+            <script type="text/javascript" async
+                src="https://www.meteored.com.ar/wid_loader/176389fe4e67c8f347b739f698955aaf"></script>
+        </div> <!-- Widget de clima para otra ciudad -->
+    </section>
+
+    <!-- SECCION DE SPONSORS -->
+    <section class="sponsors m-0">
+        <h2 class="text-center">SPONSORS</h2>
+        <div id="sponsorsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="sponsor-item text-center">
+                            <img src="../imgs/sponsorCoca.png" alt="The Coca-Cola Company" class="sponsor-img img-fluid">
+                            <p>Coca-Cola</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="sponsor-item text-center">
+                            <img src="../imgs/sponsroMcDonnalds.jpeg" alt="Mc Donnald's" class="sponsor-img img-fluid">
+                            <p>Mc Donnald's</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#sponsorsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#sponsorsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-light py-4 mt-5">
+        <nav class="footer-nav">
+            <ul class="containerfooter">
+                <li class="mx-3"><a href="#" class="text-dark">¿Quiénes somos?</a></li>
+                <li class="mx-3"><a href="#" class="text-dark">Formá parte de nosotros, de inmediato</a></li>
+                <li class="mx-3"><a href="#" class="text-dark">Redes Sociales</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- Enlace a los archivos JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
