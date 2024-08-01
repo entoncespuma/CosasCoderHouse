@@ -4,23 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SERVICIOS | inmediato<</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>CLIMA | inmediato</title>
     <!-- Enlace al archivo CSS de Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../styles.css"> <!-- Enlace al archivo de estilos externo -->
+    <!-- Enlace a tu archivo de estilos externo -->
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
 
-    <header class="header">
-        <img src="../imgs/inMEDIAto.png" alt="Logo" class="logo" width="80">
+    <!-- SECCION HEADER -->
+    <header class="header d-flex align-items-center justify-content-center bg-dark text-white">
+        <img src="/imgs/inMEDIAto.png" alt="Logo" class="logo mr-3">
         <nav class="nav">
-            <ul>
-                <li><a href="../index.html" id="colorinicio">INICIO</a></li> <!-- Enlace a la página de inicio -->
-                <li><a href="../html/umomento.html">ULTIMO MOMENTO</a></li> <!-- Enlace a la página de último momento -->
-                <li><a href="../html/espectaculos.html">ESPECTACULOS</a></li> <!-- Enlace a la página de espectáculos -->
-                <li><a href="../html/clima.html">CLIMA</a></li> <!-- Enlace a la página de clima -->
-                <li><a href="">SERVICIOS</a></li> <!-- NO FUNCIONA EL ENLACE SI ESTAS EN LA MISMA PAGINA -->
+            <ul class="nav-list d-flex list-unstyled m-0">
+                <li class="mr-3"><a href="../index.html" class="text-white">INICIO</a></li>
+                <li class="mr-3"><a href="/html/umomento.html" class="text-white">ULTIMO MOMENTO</a></li>
+                <li class="mr-3"><a href="/html/espectaculos.html" class="text-white">ESPECTACULOS</a></li>
+                <li class="mr-3"><a href="/html/clima.html" class="text-white">CLIMA</a></li>
+                <li class="mr-3"><a href="" class="text-white">SERVICIOS</a></li> <!-- NO FUNCIONA EL ENLACE SI ESTAS EN LA MISMA PAGINA -->
             </ul>
         </nav>
     </header>
@@ -61,17 +64,36 @@
         </div>
     </section>
 
-    <section class="sponsors">
-        <h2>SPONSORS</h2> <!-- Título de la sección de sponsors -->
-        <div class="sponsor-container">
-            <div class="sponsor-item">
-                <img src="../imgs/sponsorCoca.png" alt="The Coca-Cola Company" class="sponsor-img">
-                <p>Coca-Cola</p> <!-- Nombre del patrocinador Coca-Cola -->
+    <!-- SECCION DE SPONSORS -->
+    <section class="sponsors m-0">
+        <h2 class="text-center">SPONSORS</h2>
+        <div id="sponsorsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="sponsor-item text-center">
+                            <img src="/imgs/sponsorCoca.png" alt="The Coca-Cola Company" class="sponsor-img img-fluid">
+                            <p>Coca-Cola</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="sponsor-item text-center">
+                            <img src="/imgs/sponsroMcDonnalds.jpeg" alt="Mc Donnald's" class="sponsor-img img-fluid">
+                            <p>Mc Donnald's</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="sponsor-item">
-                <img src="../imgs/sponsroMcDonnalds.jpeg    " alt="Mc Donnald's" class="sponsor-img">
-                <p>Mc Donnald's</p> <!-- Nombre del patrocinador Mc Donnald's -->
-            </div>
+            <a class="carousel-control-prev" href="#sponsorsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#sponsorsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
 
