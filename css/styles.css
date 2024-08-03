@@ -6,7 +6,7 @@ body {
 }
 /* Estilos para el HEADER */
 .header {
-    font-size: 0.875em; /* Ajuste para pequeñas pantallas */
+    font-size: 0.75em; /* Ajuste para pequeñas pantallas */
     justify-items: center;
     background-color: #343a40;
     padding: 1em 2em;
@@ -86,7 +86,6 @@ body {
 
 /* Estilos para el contenido principal TITULARES */
 .content {
-    background-color: ;
     text-align: center;
     border-bottom: 2px solid #dee2e6;
     margin-bottom: 0.25em;
@@ -163,7 +162,8 @@ p {
 /* Estilos para el pie de página */
 .footer {
     background-color: #f1f1f1;
-    padding: 1.25em 0;
+    font-size: small;
+    padding: 0;
     text-align: center;
     border-top: 1px solid #dee2e6;
 }
@@ -173,7 +173,6 @@ p {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1.875em;
     font-size: 0.875em;
