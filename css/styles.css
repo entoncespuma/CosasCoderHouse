@@ -8,12 +8,11 @@ body {
 /* Estilos para el HEADER */
 .header {
     font-size: 0.75em;
-    /* Ajuste para pequeñas pantallas */
-    justify-items: center;
-    background-color: #343a40;
-    padding: 1em 2em;
+    background-color: #343A40;
+    padding: 0.5em 2em;
     border-bottom: 1px solid #dee2e6;
 }
+
 
 .logo {
     width: 50px;
@@ -26,7 +25,6 @@ body {
     padding-top: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -51,7 +49,7 @@ body {
 
 /* Efecto hover en el logo */
 .logo:hover {
-    transition: 200ms;
+    transition: 300ms;
     transform: scale(1.25);
 }
 
@@ -125,29 +123,30 @@ body {
     border-bottom: 1px solid #dee2e6;
 }
 
-.sponsor-container {
-    display: flex;
-    justify-content: center;
-    gap: 2.5em;
-    flex-wrap: wrap;
-}
-
-.sponsor-container p {
-    text-align: center;
-    font-style: italic;
-}
-
 .sponsor-item {
     text-align: center;
 }
 
+.nombredelsponsor{
+    font-size: 1em;
+    text-align: center;
+}
+
+.carousel-inner {
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .sponsor-img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+    width: 20em; /* Ajusta el ancho al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
     border-right: 5px solid #ccc;
     border-bottom: 5px solid #ccc;
+    object-fit: contain; /* Asegura que la imagen se ajuste bien al contenedor */
 }
+
 
 /* Estilos para los encabezados y párrafos */
 h3 {

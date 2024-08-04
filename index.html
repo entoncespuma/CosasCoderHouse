@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <title>ULTIMO MOMENTO | inmediato</title>
-    <!-- Enlace al archivo CSS de Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Enlace a tu archivo de estilos externo -->
+    <title>INICIO | inmediato</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 
 <body>
 
@@ -80,37 +79,38 @@
     </section>
 
     <!-- SECCION DE SPONSORS -->
-    <section class="sponsors m-0">
-        <h2 class="titulodeseccion text-center">SPONSORS</h2>
-        <div id="sponsorsCarousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center">
-                        <div class="sponsor-item text-center">
-                            <img src="imgs/sponsorCoca.png" alt="The Coca-Cola Company" class="sponsor-img img-fluid">
-                            <p>Coca-Cola</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <div class="sponsor-item text-center">
-                            <img src="imgs/sponsroMcDonnalds.jpeg" alt="Mc Donnald's" class="sponsor-img img-fluid">
-                            <p>Mc Donnald's</p>
-                        </div>
+<section class="sponsors m-0">
+    <h2 class="titulodeseccion text-center">SPONSORS</h2>
+    <div id="sponsorsCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                    <div class="sponsor-item text-center">
+                        <img src="imgs/sponsorCoca.png" alt="The Coca-Cola Company" class="sponsor-img img-fluid">
+                        <p class="nombredelsponsor">Coca-Cola</p>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#sponsorsCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#sponsorsCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <div class="sponsor-item text-center">
+                        <img src="imgs/sponsroMcDonnalds.jpeg" alt="Mc Donnald's" class="sponsor-img img-fluid">
+                        <p class="nombredelsponsor">Mc Donnald's</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+        <a class="carousel-control-prev" href="#sponsorsCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#sponsorsCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
 
     <!-- FOOTER -->
     <footer class="footer py-2 mt-2">
