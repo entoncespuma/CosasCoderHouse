@@ -17,6 +17,7 @@ body {
 .logo {
     width: 50px;
     height: auto;
+    
 }
 
 /* Estilos para la navegación */
@@ -26,10 +27,12 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    
 }
 
 .nav ul li {
     margin-right: 0.5em;
+    
 }
 
 .nav ul li a {
@@ -45,6 +48,7 @@ body {
     color: #000000;
     border-radius: 0.625em 0.25em 0.625em 0.25em;
     transition: 300ms;
+    justify-items: center;
 }
 
 /* Efecto hover en el logo */
