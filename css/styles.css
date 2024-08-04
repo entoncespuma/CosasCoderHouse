@@ -4,9 +4,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* Estilos para el HEADER */
 .header {
-    font-size: 0.75em; /* Ajuste para pequeñas pantallas */
+    font-size: 0.75em;
+    /* Ajuste para pequeñas pantallas */
     justify-items: center;
     background-color: #343a40;
     padding: 1em 2em;
@@ -92,7 +94,7 @@ body {
     padding: 0;
 }
 
-.titulodeseccion{
+.titulodeseccion {
     font-size: 2em;
     padding: 0.25em;
     background-color: #6c757d;
@@ -176,7 +178,7 @@ p {
     justify-content: center;
     gap: 1.875em;
     font-size: 0.875em;
-    
+
 }
 
 .footer-nav ul li {
@@ -191,7 +193,7 @@ p {
     padding: 0.5em 1em;
     border-radius: 0.1875em;
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-    
+
 }
 
 /* Efecto de hover en los enlaces */
