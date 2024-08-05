@@ -1,0 +1,49 @@
+/* Estilos para el pie de página */
+
+.footer {
+    background-color: #f1f1f1;
+    font-size: small;
+    padding: 0;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+
+    .footer-nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.875em;
+            font-size: 0.875em;
+
+            li {
+                display: flex;
+
+                a {
+                    text-decoration: none;
+                    color: #000000;
+                    font-weight: bold;
+                    position: relative;
+                    padding: 0.5em 1em;
+                    border-radius: 0.1875em;
+                    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+
+                    &:hover {
+                        color: #333333;
+                        background-color: #dcdcdc;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    }
+
+                    &:focus,
+                    &:active {
+                        color: #000000;
+                        background-color: #e0e0e0;
+                        outline: none;
+                        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+                    }
+                }
+            }
+        }
+    }
+}

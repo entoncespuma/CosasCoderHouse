@@ -1,0 +1,81 @@
+/* Estilos para el contenido principal TITULARES */
+.content {
+    text-align: center;
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 0.25em;
+    padding: 0;
+}
+
+.titulodeseccion {
+    font-size: 2em;
+    padding: 0.25em;
+    background-color: #6c757d;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de ítems */
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+
+    img {
+        width: 95%;
+        height: auto;
+        border-right: 5px solid #ccc;
+        border-bottom: 5px solid #ccc;
+    }
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 576px) {
+    .header {
+        font-size: 0.875em;
+        padding: 1em 0.5em;
+
+        .logo {
+            width: 40px;
+        }
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+
+        li {
+            margin-right: 0;
+            margin-bottom: 1em;
+        }
+    }
+
+    .titulodepagina {
+        flex-direction: column;
+        margin: 0.5em 0;
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .content {
+        padding: 0 1em;
+    }
+
+    .item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sponsor-img {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .item {
+        flex-direction: row;
+    }
+}
